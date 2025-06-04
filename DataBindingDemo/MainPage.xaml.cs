@@ -17,7 +17,7 @@ namespace DataBindingDemo
             { 
             Name = "John",
             Phone = "999",
-            Address = "X Address"
+            Address = "X Address" 
             };
         }
     }
