@@ -15,10 +15,17 @@ namespace DataBindingDemo
         {
             var person = new Person
             { 
-            Name = "John",
-            Phone = "999",
+            Name = "Hector",
+            Phone = 999,
             Address = "X Address" 
             };
+
+            Binding personBinding = new Binding();
+
+            personBinding.Source = person;
+            personBinding.Path = "Name";
+
+            txtName.SetBinding(Label.TextProperty, personBinding);
         }
     }
 }
