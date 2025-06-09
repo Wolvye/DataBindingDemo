@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DataBindingDemo.Pages.Sliderpage"
+             Title="Sliderpage">
+    <StackLayout VerticalOptions="Center"
+                 HorizontalOptions="Center">
+        <Label Text="Welcome to the Jungle Baby!"
+               Rotation="{Binding Source={x:Reference slider},
+                            Path=Value}"
+               FontSize="50"/>
+        
+        <Slider Minimum="0"
+                Maximum="360"
+                x:Name="slider"/>
+    </StackLayout>
+</ContentPage>
