@@ -11,7 +11,7 @@ namespace DataBindingDemo
 
         protected override Window CreateWindow(IActivationState? activationState)
         {
-            return new Window(new BindingModes());
+            return new Window(new MainPage());
         }
     }
 }

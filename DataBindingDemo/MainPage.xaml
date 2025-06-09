@@ -22,19 +22,19 @@
                  FontSize="50"
                  VerticalOptions="Center"/>-->
             
-            <Label 
+            <Entry 
                  HorizontalOptions="Center"
                  FontSize="50"
                    Text="{Binding Name}"
                  VerticalOptions="Center"/>     
             
-            <Label 
+            <Entry 
                  HorizontalOptions="Center"
                  FontSize="50"
                    Text="{Binding Phone}"
                  VerticalOptions="Center"/>     
             
-            <Label 
+            <Entry 
                  HorizontalOptions="Center"
                  FontSize="50"
                    Text="{Binding Address}"
